@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    /* position: absolute; */
+    height: 100vh;
+    background-color: rgb(145, 143, 143);
+    /* width: 198px; */
+    font-family: 'Lora', serif;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 12px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 27px;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+
+.infocontainer {
+    /* background-color: rgb(18 181 128); */
+    height: 58vh;
+    width: 83vw;
+    margin: 76px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.devimg img{
+   height: 58vh;
+
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.hello{
+    font-size: 50px;
+    
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+
+}
+.about{
+    font-size: 30px;
+}
+
+.moreabout{
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 3px;
+    
+}
+
+.buttons{
+    margin: 34px;
+}
+
+
+.buttons button{
+    border-radius: 22px;
+  
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+    padding: 9px 14px;
+}
+.buttons button:hover{
+    color: wheat;
+    background-color: dodgerblue;
+
+}
+
+
+
+
+
+
+
+
+/* CONTACT CSS */
+
+.contactform{
+    margin: 0 88px;
+    padding: 100px;
+    padding-top: 0 34px;
+    font-weight: bold;
+   
+    /* font-family: 'Open Sans Condensed', sans-serif;  */
+}
+.contactform h1{
+      font-family: 'Source Sans Pro', sans-serif;
+      text-align: center;
+
+}
+
+.contactform form div{
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 24vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+
+   
+}
+
+#emailHelp{
+    font-size: 14px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 26px;
+    margin: 3px 0;
+}
+
+.btn{
+    margin: 34px;
+    border-radius: 22px;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 3px;
+    cursor: pointer;
+    padding: 7px 10px;
+
+}
+/* .button .buttons{
+    border-radius: 22px;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+    padding: 9px 14px;
+} */
+.btn:hover{
+    color: wheat;
+    background-color: dodgerblue;
+
+}
+
+
+
+/* blog CSS */
+
+.Blogcontainer{
+    margin: 0 88px;
+}
+
+.blogitem {
+    margin: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+    
+}
+h1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 23px;
+   
+
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.intro h2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 12px;
+
+
+
+}
+.intro{
+    margin: 10 88px;
+}
+
+
+.intro p{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 12px;
+
+}
+.skillscontainer{
+    padding: 12px;
+    margin: 12px;
+
+}
+
+.skill{
+    width: 266px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.skillitems{
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 900;
+}
+
+.hundred{
+    width: 266px;
+
+}
+.fifty{
+    width: 125px;
+    background-color: rgb(117, 76, 117);
+}
+.t5{
+    width: 155px;
+    background-color: rgb(77, 194, 240);
+}
+
+
+
+ /* @media (max-width: 1650px) {
+    *{
+         background-color: wheat; 
+    }
+    .sidebar{
+            transform: translate(-433px, 0px);
+            position: absolute;
+    }
+            
+        
+    
+}   */
+
+
+
+.hamb{
+
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cclass{
+    margin-left: 130px;
+}
+
+.sidebarGo{
+    transform: translate(-433px, 0px);
+    position: absolute;
+}
+
